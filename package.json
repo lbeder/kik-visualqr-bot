@@ -17,6 +17,7 @@
   "homepage": "https://github.com/lbeder/kik-visualqr-bot#readme",
   "dependencies": {
     "@kikinteractive/kik": "^2.0.10",
-    "nconf": "^0.8.4"
+    "nconf": "^0.8.4",
+    "path": "^0.12.7"
   }
 }
