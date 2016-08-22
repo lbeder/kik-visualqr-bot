@@ -1,0 +1,18 @@
+{
+  "name": "kik-visualqr-bot",
+  "version": "1.0.0",
+  "description": "Kik Bot for generating Visual QR codes using http://www.visualead.com API",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbeder/kik-visualqr-bot.git"
+  },
+  "author": "Leonid Beder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lbeder/kik-visualqr-bot/issues"
+  },
+  "homepage": "https://github.com/lbeder/kik-visualqr-bot#readme"
+}
