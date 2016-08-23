@@ -8,7 +8,7 @@ The environment is defined by the `NODE_ENV` parameter (i.e., the default is: `c
 
 The configuration file should have the following settings:
 
-```json
+```javascript
 {
   "bot": {
     "username": "visualeadqr.dev.bot",
