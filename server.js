@@ -78,5 +78,5 @@ bot.onPictureMessage((message) => {
   });
 });
 
-// Set up your server and start listening
+// Set up your server and start listening.
 let server = http.createServer(bot.incoming()).listen(process.env.PORT || 8080);
