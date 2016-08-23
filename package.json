@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Kik Bot for generating Visual QR codes using http://www.visualead.com API",
   "scripts": {
-    "build": "./node_modules/.bin/babel *.js -d dist && cp -r config dist/",
-    "debug": "npm run build && node-debug dist/server.js",
+    "debug": "node-debug server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +22,5 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "babel-cli": "^6.11.4",
-    "babel-preset-es2015": "^6.13.2"
   }
 }

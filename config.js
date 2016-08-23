@@ -1,7 +1,12 @@
 'use strict';
 
-import nconf from 'nconf';
-import Path from 'path';
+let nconf = require('nconf');
+let Path = require('path');
 
-nconf.argv().env().file({file: Path.join(__dirname , '../config.json')});
+let envName = nconf.get('NODE_ENV') || 'development';
 
+nconf.argv().env().file({file: Path.join(__dirname , 'config', envName + '.json')});
+
+module.exports = {
+  Bot: nconf.get('bot')
+};
