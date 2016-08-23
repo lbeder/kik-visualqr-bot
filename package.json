@@ -19,8 +19,9 @@
   "dependencies": {
     "@kikinteractive/kik": "^2.0.10",
     "nconf": "^0.8.4",
-    "path": "^0.12.7"
+    "node-base64-image": "^1.0.1",
+    "path": "^0.12.7",
+    "request": "^2.74.0"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
